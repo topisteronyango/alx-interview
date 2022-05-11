@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-'''solving nqueens problem'''
+"""
+Contains methods that find the possible solutions to the n-queens can
+be placed without them attacking each other(The n-queens problem).
+"""
 import sys
 
 
