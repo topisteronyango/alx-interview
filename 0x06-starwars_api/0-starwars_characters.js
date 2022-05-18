@@ -1,9 +1,11 @@
 #!/usr/bin/node
-/**A script that prints all characters of a Star Wars movie*/
+/**
+  prints all characters of a Star Wars movie
+  */
 
+const myArgs = process.argv.slice(2);
 const request = require('request');
-const myArguments = process.argv.slice(2);
-const url = 'https://swapi-api.hbtn.io/api/films/' + myArguments[0];
+const url = 'https://swapi-api.hbtn.io/api/films/' + myArgs[0];
 
 request(url, async function (error, response, body) {
   if (!error) {
