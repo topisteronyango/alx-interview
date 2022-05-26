@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-
-# Rotate a 2D matrix by 90 degrees (clockwise).
-
+"""
+Rotate a 2D matrix by 90 degrees (clockwise).
+"""
 
 
 def rotate_2d_matrix(matrix):
-    
-    # Rotate a 2D matrix by 90 degrees (clockwise).
-    
+    """
+    Rotate a 2D matrix by 90 degrees (clockwise).
+    """
     n = len(matrix)
     for layer in range(n // 2):
         first = layer
